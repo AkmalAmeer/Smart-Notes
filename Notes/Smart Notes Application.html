@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Notes App</title>
+    <link rel="stylesheet" href="Smart Notes Application.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Smart Notes</h1>
+        <div class="note-creation">
+            <input type="text" id="noteInput" placeholder="Write a new note or search..." />
+            <button id="addNoteBtn">Add Note</button>
+        </div><br>
+        <div class="color-picker" align="center">
+            <label for="colorPicker">Pick a color:</label>
+            <input type="color" id="colorPicker" value="#f5c6c6">
+        </div><br>
+        <div class="web-search">
+            <button id="wikiSearchBtn">Search Wikipedia</button>
+            <button id="imageSearchBtn">Search Images</button>
+        </div>
+
+        <input type="text" id="searchInput" placeholder="Search your notes...">
+
+        <div id="notesContainer"></div>
+
+        <div id="webSearchResults"></div>
+    </div>
+
+    <script src="Smart Notes Application.js"></script>
+</body>
+
+</html>
